@@ -1,13 +1,16 @@
 package com.pftc.seleniumEasy.StepDefinition;
 
+import org.junit.Assert;
+
 import com.pftc.seleniumEasy.PageObject.Base;
 import com.pftc.seleniumEasy.PageObject.CheckBoxDemoPage;
 import cucumber.api.java.en.Then;
 
+
 public class CheckBoxDemoStepDef extends Base {
 
 	
-	CheckBoxDemoPage checkboxDemoPage;
+	CheckBoxDemoPage checkboxDemoPage=new CheckBoxDemoPage() ;
 
 	@Then("^User Click on Checkbox Demo linkText tab$")
 	public void user_Click_on_Checkbox_Demo_linkText_tab() throws Throwable {
@@ -26,12 +29,14 @@ public class CheckBoxDemoStepDef extends Base {
 
 	@Then("^User validate the Check All message changed to Uncheck All button$")
 	public void user_validate_the_Check_All_message_changed_to_Uncheck_All_button() throws Throwable {
-		String c=checkboxDemoPage.unCheckAllButton();
-		if(c.equalsIgnoreCase("Uncheck All")) {
-			System.out.println("UnCheck ALL radio Button successfully");
-		}else {
-			System.out.println("Failed");
-		}
+		Thread.sleep(10000);
+		//checkboxDemoPage.unCheckAllButton();
+		String expected="Uncheck All";
+		String actual=checkboxDemoPage.unCheckAllButton();	
+        Assert.assertEquals(expected, actual);	
+	
+		
+		
 	}
 
 

@@ -34,6 +34,8 @@ public class CheckBoxDemoPage extends Base{
 	}
 	
 	public String unCheckAllButton() {
-		return unCheckAll.getText().trim();
+		//System.out.println(unCheckAll.getAttribute("value"));
+		System.out.println("Actual Result: "+unCheckAll.getAttribute("value").trim());
+		return unCheckAll.getAttribute("value").trim();
 	}
 }
