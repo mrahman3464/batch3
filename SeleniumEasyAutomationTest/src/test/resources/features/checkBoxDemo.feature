@@ -1,6 +1,6 @@
 Feature:   As a user I should be able to verify the  CheckBox Demo field functionalities in Checkbox Demo Page
-#Author:mohdmhaque@gmail.com
-#Date:09/16/2019
+#Author:Test
+#Date:06/06/2021
 @smoke
 Scenario: Verify Single and and Multiple Checkbox Field functionality 
 	Given User Navigate to SeleniumEasy Test Home Page 
