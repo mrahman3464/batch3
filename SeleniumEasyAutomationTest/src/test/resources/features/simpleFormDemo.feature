@@ -1,7 +1,7 @@
 Feature: As a user I should be able to verify the  Single and Two Input field functionalities in Simple Form Demo Page 
 
-#Author:mohdmhaque@gmail.com
-#Date:09/16/2019
+#Author:Arif
+#Date:06/13/2021
 @smoke
 Scenario: Verify Single and Double Input Field Functionalities 
 	Given User Navigate to SeleniumEasy Test Home Page 

@@ -1,10 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: com.pftc.seleniumEasy.Runner
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 60.401 s <<< FAILURE! - in com.pftc.seleniumEasy.Runner
-Then User Click on Checkbox Demo linkText tab(Scenario: Verify Single and and Multiple Checkbox Field functionality)  Time elapsed: 0.015 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 18, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 43.993 s <<< FAILURE! - in com.pftc.seleniumEasy.Runner
+Then User Click on the Get Total button(Scenario: Verify Single and Double Input Field Functionalities)  Time elapsed: 0.003 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" onclick="return total()" class="btn btn-default">...</button> is not clickable at point (547, 908). Other element would receive the click: <div id="at-cv-lightbox-inner">...</div>
+  (Session info: chrome=91.0.4472.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBNFFHD', ip: '192.168.1.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rahma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f39d8ab5baf9086b7909d2f46f0282ea
 
-Scenario: Verify Single and and Multiple Checkbox Field functionality  Time elapsed: 0.015 s  <<< ERROR!
-java.lang.NullPointerException
+Scenario: Verify Single and Double Input Field Functionalities  Time elapsed: 0.004 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" onclick="return total()" class="btn btn-default">...</button> is not clickable at point (547, 908). Other element would receive the click: <div id="at-cv-lightbox-inner">...</div>
+  (Session info: chrome=91.0.4472.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBNFFHD', ip: '192.168.1.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rahma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f39d8ab5baf9086b7909d2f46f0282ea
 

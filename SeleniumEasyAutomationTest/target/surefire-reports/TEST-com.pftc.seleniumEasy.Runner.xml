@@ -1,95 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pftc.seleniumEasy.Runner" time="60.401" tests="18" errors="2" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pftc.seleniumEasy.Runner" time="43.993" tests="18" errors="2" skipped="1" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Eclipse\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Moklasur\Desktop\SeleniumEasyAutomationTest"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Moklasur\Desktop\SeleniumEasyAutomationTest"/>
-    <property name="java.runtime.version" value="1.8.0_221-b11"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\GitHub\batch3\SeleniumEasyAutomationTest\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rahma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\SeleniumWebdrivers;C:\seleniumframework\phantomjs-2.0.0-windows;C:\Program Files (x86)\Notepad++;C:\Development\apache-maven-3.3.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\gradle-3.1\bin;C:\RubyDevkit\bin;C:\Ruby22\bin;C:\RubyGems;C:\PostgreSQL\pg96\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Moklasur\AppData\Local\Android\Sdk\platform-tools;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Moklasur\AppData\Local\Android\Sdk\tools\bin;C:\Users\Moklasur\AppData\Local\Android\Sdk\tools;C:\SeleniumWebdrivers;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Maven\apache-maven-3.6.2\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="maven.conf" value="C:\Maven\apache-maven-3.6.2\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="rahma"/>
+    <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Maven\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="SHAJIB$"/>
-    <property name="java.class.path" value="C:\Maven\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_221"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rahma\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\GitHub\batch3\SeleniumEasyAutomationTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\GitHub\batch3\SeleniumEasyAutomationTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Ruby30-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\SeleniumWebDrivers;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Users\rahma\AppData\Local\Microsoft\WindowsApps;C:\Users\rahma\AppData\Local\Programs\Microsoft VS Code\bin;C:\SeleniumWebDrivers;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Maven\apache-maven-3.6.2\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="classworlds.conf" value="C:\Users\rahma\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13128110315523633441.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="Given User Navigate to SeleniumEasy Test Home Page" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0.004"/>
+  <testcase name="Given User Navigate to SeleniumEasy Test Home Page" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0.001"/>
   <testcase name="When User Click on Input Forms hyperlink tab" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0"/>
-  <testcase name="Then User Click on Checkbox Demo linkText tab" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0.015">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Scenario: Verify Single and and Multiple Checkbox Field functionality" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0.015">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="And User select Single Checkbox Demo radio button" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then User click on the Check All button in Multiple Checkbox Demo section" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then User validate the Check All message changed to Uncheck All button" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Then User Click on Checkbox Demo linkText tab" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0"/>
+  <testcase name="And User select Single Checkbox Demo radio button" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0"/>
+  <testcase name="Then User click on the Check All button in Multiple Checkbox Demo section" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0"/>
+  <testcase name="Then User validate the Check All message changed to Uncheck All button" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="0"/>
+  <testcase name="Scenario: Verify Single and and Multiple Checkbox Field functionality" classname="Scenario: Verify Single and and Multiple Checkbox Field functionality" time="5.071"/>
   <testcase name="Given User Navigate to SeleniumEasy Test Home Page" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
   <testcase name="When User Click on Input Forms hyperlink tab" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
   <testcase name="Then User Click on  Simple form Demo Hyperlink Test" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
-  <testcase name="Then User Enter a message in the Enter message text box" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0.001"/>
+  <testcase name="Then User Enter a message in the Enter message text box" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
   <testcase name="And User Click on Show Message Button" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
   <testcase name="Then User Validate the Message is been displayed in the Your Message section" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
   <testcase name="Then User Enter a integer value in the Enter a text box" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
   <testcase name="And User Enter 2nd integer value in the Enter b text box" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
-  <testcase name="Then User Click on the Get Total button" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
-  <testcase name="Then User Validate the Total of a and b being displayed correctly" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0"/>
-  <testcase name="Scenario: Verify Single and Double Input Field Functionalities" classname="Scenario: Verify Single and Double Input Field Functionalities" time="5.151"/>
+  <testcase name="Then User Click on the Get Total button" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0.003">
+    <error message="element click intercepted: Element &lt;button type=&quot;button&quot; onclick=&quot;return total()&quot; class=&quot;btn btn-default&quot;&gt;...&lt;/button&gt; is not clickable at point (547, 908). Other element would receive the click: &lt;div id=&quot;at-cv-lightbox-inner&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=91.0.4472.101)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBNFFHD&apos;, ip: &apos;192.168.1.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rahma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f39d8ab5baf9086b7909d2f46f0282ea" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" onclick="return total()" class="btn btn-default">...</button> is not clickable at point (547, 908). Other element would receive the click: <div id="at-cv-lightbox-inner">...</div>
+  (Session info: chrome=91.0.4472.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBNFFHD', ip: '192.168.1.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rahma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f39d8ab5baf9086b7909d2f46f0282ea
+]]></error>
+  </testcase>
+  <testcase name="Scenario: Verify Single and Double Input Field Functionalities" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0.004">
+    <error message="element click intercepted: Element &lt;button type=&quot;button&quot; onclick=&quot;return total()&quot; class=&quot;btn btn-default&quot;&gt;...&lt;/button&gt; is not clickable at point (547, 908). Other element would receive the click: &lt;div id=&quot;at-cv-lightbox-inner&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=91.0.4472.101)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UBNFFHD&apos;, ip: &apos;192.168.1.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rahma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f39d8ab5baf9086b7909d2f46f0282ea" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" onclick="return total()" class="btn btn-default">...</button> is not clickable at point (547, 908). Other element would receive the click: <div id="at-cv-lightbox-inner">...</div>
+  (Session info: chrome=91.0.4472.101)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UBNFFHD', ip: '192.168.1.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rahma\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f39d8ab5baf9086b7909d2f46f0282ea
+]]></error>
+  </testcase>
+  <testcase name="Then User Validate the Total of a and b being displayed correctly" classname="Scenario: Verify Single and Double Input Field Functionalities" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
