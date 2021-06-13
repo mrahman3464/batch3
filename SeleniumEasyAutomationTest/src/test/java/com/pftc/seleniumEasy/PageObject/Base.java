@@ -31,7 +31,7 @@ public class Base {
 	public static WebDriver initializationBrowser() {
 		String browser = prop.getProperty("browser");
 		if (browser.equalsIgnoreCase("chrome") || (browser.equalsIgnoreCase("ch"))) {
-			System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver1.exe");
+			System.setProperty("webdriver.chrome.driver", "C:/SeleniumWebDrivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("firefox") || (browser.equalsIgnoreCase("ff"))) {
 			System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver.exe");
